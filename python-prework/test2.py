@@ -1,4 +1,4 @@
-# def hello_name(user_name):
+ # def hello_name(user_name):
 #     print("hello " + user_name + "!")
 
 # hello_name("Chunks")
@@ -60,13 +60,10 @@
 # For example, [2,3,4,5,6,7] are consecutive numbers, but [1,2,4,5] are not consecutive numbers. 
 # The return should be boolean Type.
 
-def is_consecutive(a_list):
-    return sorted(a_list) == list(range(min(a_list),max(a_list)+1))
+# def is_consecutive(a_list):
+#     return sorted(a_list) == list(range(min(a_list),max(a_list)+1))
 
-print(is_consecutive([1,2,3,5,6,]))
-
-import typing_extensions
-
+# print(is_consecutive([1,2,3,5,6,]))
 
 def is_consecutive(a_list):
     i =0
@@ -81,6 +78,5 @@ def is_consecutive(a_list):
 
 is_consecutive([1,2,3,5,6,])
 is_consecutive([1,5,3,2])
-is_consecutive([1,5,3,2])
- typing_extensions
+
     
